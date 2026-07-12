@@ -1,0 +1,33 @@
+.filter-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.filter-section button {
+  padding: 10px 18px;
+  border: 1px solid #222;
+  border-radius: 6px;
+  background-color: white;
+  color: #222;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.filter-section button:hover {
+  background-color: #222;
+  color: white;
+}
+
+.filter-section .active-filter {
+  background-color: #222;
+  color: white;
+}
+
+.product-category {
+  color: #777;
+  font-size: 14px;
+  font-weight: normal;
+}
