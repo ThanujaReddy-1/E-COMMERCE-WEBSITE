@@ -1,16 +1,91 @@
-# React + Vite
+# 🛒 E-Commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack E-Commerce web application built using **React.js, Node.js, Express.js, and MongoDB**. The application provides a seamless online shopping experience with secure authentication, product browsing, shopping cart, wishlist, category filtering, and multiple payment options.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+### 👤 User Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛍️ Shopping Features
+- Browse Products
+- Category-wise Filtering
+- Add to Cart
+- Add to Wishlist
+- Remove Items
+- View Cart & Wishlist
+- Order Summary
 
-## Expanding the ESLint configuration
+### 💳 Payment Module
+- Credit/Debit Card
+- UPI Payment
+- Net Banking
+- Cash on Delivery (COD)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 User Interface
+- Responsive Design
+- Modern Product Cards
+- Interactive Navigation Bar
+- Category Filters
+- Clean & User-Friendly Layout
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- React Router DOM
+- CSS3
+- Vite
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt.js
+- dotenv
+
+---
+
+## 📂 Project Structure
+
+```text
+e-commerce_app/
+│
+├── backend/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── node_modules/
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   └── ProtectedRoute/
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Wishlist.jsx
+│   │   ├── Payment.jsx
+│   │   └── Profile.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
